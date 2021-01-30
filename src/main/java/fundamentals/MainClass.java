@@ -4,19 +4,32 @@ import java.util.Scanner;
 
 public class MainClass {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        System.out.println("Hello World");
 
+        // TaskExercises taskExercises = new TaskExercises();
+        //taskExercises.circlePerimeter();
+       // TaskExercises.perimeters();
 
-        // Write an application that will read diameter of a circle (variable of type float) and
-        //calculate perimeter of given circle.
-        //  Firstly, assume π = 3.14. Later, use value of π from built-in Math class.
+    //static vs non-static fields and methods
+        
+/*    TaskExercices tasksExercices1 = new TaskExercices();
+    TaskExercices tasksExercices2 = new TaskExercices();
+        System.out.println("x = "+tasksExercices1.x);
+        System.out.println("y = "+tasksExercices1.y);
+        System.out.println("y = "+tasksExercices2.y);
+    tasksExercices1.x =22;
+    TaskExercices.y =3;
+        System.out.println("x1 = "+tasksExercices1.x);
+        System.out.println("x2 = "+tasksExercices2.x);
+        System.out.println("y1 = "+tasksExercices1.y);
+        System.out.println("y2 = "+tasksExercices2.y);
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Insert diameter");
+    //Task1
+       tasksExercices1.perimeters();
 
-        float diameter = scanner.nextFloat();
-        float pi = (float) Math.PI;
-        System.out.println("The perimeter has the following length :" + diameter * pi);
-    }
+ */
+        TaskExercises.bodyMassIndex();
+        TaskExercises.fizzBuzz();
+        TaskExercises.AllPrimeNumbers();
+
+}
 }
