@@ -26,10 +26,11 @@ public class MainClass {
     //Task1
        tasksExercices1.perimeters();
 
- */
-        TaskExercises.bodyMassIndex();
+ *//*  TaskExercises.bodyMassIndex();
         TaskExercises.fizzBuzz();
         TaskExercises.AllPrimeNumbers();
-
+*/
+        StringExercises stringExercises = new StringExercises();
+        StringExercises.repeatText();
 }
 }
