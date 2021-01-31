@@ -8,15 +8,16 @@ public class StringEx2 {
     //For example, for the input: "This is my test" the application should print "This This is is
     //my my test test".
     public static void shutters(){
-        System.out.println("Type your word");
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Type your word");
+
 
         String text= scanner.nextLine();
         String[] words =text.split("");//intializam stringul
         for(int i =0; i < words.length; i++){
             System.out.println(words[i] + " " + words[i] + " ");
         }
-        System.out.println(words[words.length -1] + "" + words[words.length-1]);
+        System.out.println(words[words.length -1] + " " + words[words.length -1]);
 
 
     }
