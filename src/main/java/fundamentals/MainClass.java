@@ -30,7 +30,13 @@ public class MainClass {
         TaskExercises.fizzBuzz();
         TaskExercises.AllPrimeNumbers();
 */
-        StringExercises stringExercises = new StringExercises();
+       /* StringExercises stringExercises = new StringExercises();
         StringExercises.repeatText();
+      */
+
+        StringEx2 stringEx2 = new StringEx2();
+        StringEx2.shutters();
+        stringEx2.TestStrings();
+        stringEx2.testObjects();
 }
 }
